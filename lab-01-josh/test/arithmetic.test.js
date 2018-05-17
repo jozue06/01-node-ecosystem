@@ -6,26 +6,34 @@ describe('Arithmetic Function', () => {
 
     const expected = null;
 
-    const actual = arithmetic();
+    const actual = arithmetic.addition();
 
     expect(actual).toBe(expected);
   });
 
   it('add() should return sum of [a+b] if passed numbers', () =>{
 
-    const expected = arithmetic(1,1);
+    const expected = arithmetic.addition(1,1);
 
-    const actual = arithmetic(1,1);
+    const actual = arithmetic.addition(1,1);
 
     expect(actual).toBe(expected);
   });
 
+  it('should return null if passed non number', () =>{
 
-  xit('should return Hello, [name] if passed name', () =>{
+    const expected = null;
 
-    const expected = 'Hello, Tama';
+    const actual = arithmetic.subtraction();
 
-    const actual = arithmetic('Tama');
+    expect(actual).toBe(expected);
+  });
+
+  it('sub() should return sum of [a-b] if passed numbers', () =>{
+
+    const expected = arithmetic.subtraction(1,1);
+
+    const actual = arithmetic.subtraction(1,1);
 
     expect(actual).toBe(expected);
   });
