@@ -1,6 +1,8 @@
 'use strict';
 const greet = require('../lib/greet.js');
-describe('greet function', ()=>{
+
+describe('Greet Function', ()=>{
+
   it('should return if passed non string', () =>{
 
     const expected = null;
