@@ -3,7 +3,7 @@ const greet = require('../lib/greet.js');
 
 describe('Greet Function', ()=>{
 
-  it('should return if passed non string', () =>{
+  it('should return null if passed non string', () =>{
 
     const expected = null;
 
