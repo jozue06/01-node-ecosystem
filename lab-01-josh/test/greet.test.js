@@ -20,7 +20,7 @@ describe('greet function', ()=>{
   });
 
 
-  it('should return Hello, if passed name', () =>{
+  it('should return Hello, [name] if passed name', () =>{
 
     const expected = 'Hello, Tama';
 
