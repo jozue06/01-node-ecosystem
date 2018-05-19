@@ -13,7 +13,7 @@ describe('Arithmetic Function', () => {
 
   it('add() should return sum of [a+b] if passed numbers', () =>{
 
-    const expected = arithmetic.addition(1,1);
+    const expected = 2;
 
     const actual = arithmetic.addition(1,1);
 
@@ -31,9 +31,9 @@ describe('Arithmetic Function', () => {
 
   it('sub() should return sum of [a-b] if passed numbers', () =>{
 
-    const expected = arithmetic.subtraction(1,1);
+    const expected = 1;
 
-    const actual = arithmetic.subtraction(1,1);
+    const actual = arithmetic.subtraction(2,1);
 
     expect(actual).toBe(expected);
   });

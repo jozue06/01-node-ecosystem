@@ -18,7 +18,7 @@ describe('Greet Function', ()=>{
 
     const actual = greet(0);
 
-    expect(actual).toBe(expected);
+    expect(actual).toBe(expected);//?
   });
 
 
@@ -28,7 +28,7 @@ describe('Greet Function', ()=>{
 
     const actual = greet('Tama');
 
-    expect(actual).toBe(expected);
+    expect(actual).toBe(expected);//?
   });
   
 });
