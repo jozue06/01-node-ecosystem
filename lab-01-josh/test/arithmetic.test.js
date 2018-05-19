@@ -39,6 +39,3 @@ describe('Arithmetic Function', () => {
   });
   
 });
-
-
-// bracket notation (!) 
